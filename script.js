@@ -1,5 +1,5 @@
 //let's start with a canvas
-let canvas = document.createElement("canvas");
+const canvas = document.createElement("canvas");
 document.body.appendChild(canvas);
 
 // now set canvas height and width same as window
@@ -10,6 +10,14 @@ canvas.height = window.innerHeight;
 document.body.style.margin = "0px";
 document.body.style.overflow = "hidden";
 document.body.style.backgroundColor = "black";
+
+//to draw on canvas, we need canvas contex
+const ctx = canvas.getContext("2d");
+
+//lets make a basic monster that folow where ever mouse go
+
+
+
 
 //segment
 
